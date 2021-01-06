@@ -1,0 +1,91 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - webdriverio > webdriver > request > extend:
+        patched: '2021-01-06T11:21:11.502Z'
+    - stylelint > postcss-markdown > remark > unified > extend:
+        patched: '2021-01-06T11:21:11.502Z'
+  SNYK-JS-LODASH-567746:
+    - async > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - cheerio > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - stylelint > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - donna > async > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - npm-check > callsite-record > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - stylelint > table > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - electron-chromedriver > @electron/get > global-tunnel-ng > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - electron-mksnapshot > @electron/get > global-tunnel-ng > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - electron-packager > @electron/get > global-tunnel-ng > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - eslint > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - eslint-plugin-import > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - babel-eslint > @babel/types > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - eslint > inquirer > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - eslint > table > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - babel-eslint > @babel/traverse > @babel/types > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - npm-check > depcheck > @babel/traverse > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - babel-eslint > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - npm-check > depcheck > @babel/traverse > @babel/types > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - npm-check > depcheck > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - npm-check > depcheck > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - npm-check > depcheck > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - npm-check > depcheck > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - npm-check > depcheck > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - npm-check > depcheck > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - npm-check > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - npm-check > depcheck > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+    - npm-check > inquirer > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+  'npm:lodash:20180130':
+    - babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2021-01-06T11:21:11.502Z'
+  'npm:minimatch:20160620':
+    - glob > minimatch:
+        patched: '2021-01-06T11:21:11.502Z'
+    - babel-core > regenerator > commoner > glob > minimatch:
+        patched: '2021-01-06T11:21:11.502Z'
+    - legal-eagle > read-installed > read-package-json > glob > minimatch:
+        patched: '2021-01-06T11:21:11.502Z'
+    - stylelint > file-entry-cache > flat-cache > del > globby > glob > minimatch:
+        patched: '2021-01-06T11:21:11.502Z'
